@@ -8,7 +8,7 @@ URL = (
     "watson.runtime.nlp.v1/NlpService/EmotionPredict"
 )
 HEADERS = {
-    "grpc-metadata-mm-model-id": "emotion_aggregated-workflow_lang_en_stock"
+    "grpc-metadata-mlmodel-id": "emotion_aggregated-workflow_lang_en_stock"
 }
 EMOTIONS = ["anger", "disgust", "fear", "joy", "sadness"]
 
